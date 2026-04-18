@@ -125,7 +125,3 @@ La tasa perfecta en el caso determinístico confirma que la tabla Q codifica una
 ## 8. Conclusiones
 
 Se completó un pipeline reproducible de **entrenamiento Q-learning**, **registro de métricas por episodio**, **visualización de convergencia** y **evaluación de política** sobre FrozenLake-v1. La comparación entre entorno determinístico y resbaladizo ilustra de manera directa cómo la estocasticidad del modelo de transición limita la recompensa esperada por episodio y la tasa de éxito bajo greedy, incluso con tabulación exacta en el espacio de pares estado–acción. Como extensión natural del trabajo se podría experimentar con **n-step** o **Expected SARSA** en el mapa resbaladizo para reducir la varianza del operador bootstrap, o pasar a aproximación funcional (**DQN**) en entornos con espacio de estados mayor.
-
----
-
-*Fin del informe.*
